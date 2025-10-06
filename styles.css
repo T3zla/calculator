@@ -1,0 +1,69 @@
+body {
+    background-image: url(desk.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#calculator {
+    height: 700px;
+    width: 500px;
+    background-color: beige;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+}
+
+#screen {
+    height: 100px;
+    width: 430px;
+    background-color: grey;
+    border-radius: 8px;
+}
+
+#button_area{
+    display: flex;
+    margin-top: 20px;
+    width: 430px;
+    justify-content: space-between;
+}
+
+#number_buttons{
+    height: 500px;
+    width: 320px;
+    border: 1px solid rgb(198, 180, 132);
+    border-radius: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    padding-top: 20px;
+
+}
+
+#operations_buttons{
+    height: 500px;
+    width: 100px;
+    border: 1px solid rgb(198, 180, 132);
+    border-radius: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    padding-top: 20px;
+
+}
+
+button{
+    width: 90px;
+    height: 90px;
+    font-size: 2rem;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    text-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.2);
+}
